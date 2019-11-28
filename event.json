@@ -1,0 +1,17 @@
+{
+    "version": "0",
+    "id": "f67c037e-e534-b7e3-2e7d-8fc27af455bb",
+    "detail-type": "Glue Job State Change",
+    "source": "aws.glue",
+    "account": "804987147542",
+    "time": "2019-11-28T13:56:44Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "jobName": "sidd_work",
+        "severity": "INFO",
+        "state": "SUCCEEDED",
+        "jobRunId": "jr_c53689cef07e278b830a72a12353fab16ebafe4fb6c46410dfe7dba408c74143",
+        "message": "Job run succeeded"
+    }
+}
