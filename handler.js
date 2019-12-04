@@ -51,7 +51,7 @@ module.exports.cloudwatchglues3cleaner = (event, context, callback) => {
             {
               "ready_to_fetch_to_local_db": !is_error,
               "source": "Post-Glue lambda", 
-              "status": "PASO 3) JOB Glue " + glue_job_state + " > " + glue_job_message, 
+              "status": "PASO 3 de 9) JOB Glue " + glue_job_state + " > " + glue_job_message, 
               "percentage_completed": "60",
               "is_error": is_error
             }
