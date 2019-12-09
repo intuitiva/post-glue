@@ -5,7 +5,7 @@ Este proyecto consiste en configurar CloudWatch para que envíe un evento a esta
 ## Deploy con Serverless Framework
 1. npm install
 2. configurar .env (ejemplo en el siguiente punto)
-2. serverless deploy
+2. serverless deploy (para dev) o serverless deploy --stage production (para prod)
 
 > Gracias al Serverless Framework, en donde los permisos IAM se definen en el código, no hay que configurar nada para poder subir el código. Solo tenemos que asegurarnos que el .env esté correcto (siguiente punto)
 
